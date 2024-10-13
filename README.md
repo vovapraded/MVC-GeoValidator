@@ -213,6 +213,10 @@ ssh -p 2222 s******@se.ifmo.ru -L <portbase>:helios.cs.ifmo.ru:<portbase>
 
 > The ssh command's -L argument means that the port on the local host should be forwarded to the specified host and port on the remote side.
 
+4.33 If you are using a jakarta dependency, change it to javax.
+
+4.66 Move .war file in ~/wildfly/wildfly-21.0.0.Final/standalone/deployments
+
 5. Start the server:
 
 ```bash
